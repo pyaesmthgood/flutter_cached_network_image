@@ -8,7 +8,11 @@ environment:
   flutter: '>=3.10.0'
 
 dependencies:
-  cached_network_image_platform_interface: ^4.0.0
+  cached_network_image_platform_interface:
+    git:
+      url: https://github.com/pyaesmthgood/flutter_cached_network_image.git
+      path: cached_network_image_platform_interface
+      ref: develop
   flutter:
     sdk: flutter
   flutter_cache_manager:
